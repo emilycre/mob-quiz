@@ -1,10 +1,3 @@
-
-
-let scorecard = null;
-QUnit.testStart(function() {
-    scorecard = { cannon: 0, mtHood: 0, sedona: 0, redwoods: 0 };
-});
-
 function scoreLandscapeQuestion(landscapeAnswer, scorecard) {
     if(landscapeAnswer === 'ocean') {
         scorecard.cannon += 2;
@@ -26,4 +19,4 @@ function scoreLandscapeQuestion(landscapeAnswer, scorecard) {
     else return 'Muncie, IN.';
 }
 
-export default scoreLandscapeQuestion
+export default scoreLandscapeQuestion;

@@ -21,3 +21,5 @@ function evaluateScoreCard(scorecard) {
     }
     else return 'Go to Muncie, IN!';
 }
+
+export default evaluateScoreCard;
